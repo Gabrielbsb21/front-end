@@ -1,12 +1,11 @@
 import { ThemeProvider } from 'styled-components';
 import { defaultTheme } from './styles/themes/default';
+import { Main } from './components/Main';
 
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <div>
-        <h1>bora comecar!!</h1>
-      </div>
+      <Main />
     </ThemeProvider>
   );
 }
