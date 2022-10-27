@@ -30,6 +30,10 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1;
     font-family: 'Roboto', sans-serif;
     background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   ol, ul {
     list-style: none;

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const MainWrapper = styled.main`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
+  display: grid;
+  grid-template-areas: 'sectionForm asideTask' 'sectionStopWatch .';
+  grid-row-gap: 2rem;
+  grid-column-gap: 4rem;
 `;

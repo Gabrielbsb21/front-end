@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const FormWrapper = styled.section`
   display: flex;
   flex-direction: column;
+  grid-area: sectionForm;
 `
 
 export const Fieldset = styled.fieldset`

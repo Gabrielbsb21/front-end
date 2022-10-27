@@ -15,7 +15,6 @@ export const Form = () => {
             type="time"
             min="00:00:00"
             max="01:30:00"
-            value="00:00:00"
           />
         </Box>
       </Fieldset>
