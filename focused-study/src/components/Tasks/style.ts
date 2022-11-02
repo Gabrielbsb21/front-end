@@ -14,9 +14,13 @@ export const Ul = styled.ul`
 `;
 
 export const ListItem = styled.li`
+  border-radius: 6px;
+  color: #FCFCFC;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  background-color: #3F4958;
+  padding: 0.5rem;
 `
 
 export const Typography = styled.p`
